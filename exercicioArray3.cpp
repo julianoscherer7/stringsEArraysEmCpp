@@ -10,6 +10,30 @@ int main () {
     cin >> array[3];
     cout << "Digite um número que digitou anteriormente: " << endl;
     cin >> numero;
-    cout << 
-
+    if    (array[0] == numero) {
+        cout << "-1" << endl;
+    }
+     else {
+        cout << "array[0]" << endl;
+     }
+        if    (array[1] == numero) {
+        cout << "-1" << endl;
+    }
+     else {
+        cout << "array[1]" << endl;
+     }
+        if    (array[2] == numero) {
+        cout << "-1" << endl;
+    }
+     else {
+        cout << "array[2]" << endl;
+     }
+        if    (array[3] == numero) {
+        cout << "-1" << endl;
+    }
+     else {
+        cout << "array[3]" << endl;
+     }
+    
+    return false;
 }
